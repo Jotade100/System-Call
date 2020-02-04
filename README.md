@@ -43,7 +43,6 @@ Utilizando un contenedor de Docker, alterar una versión del Kernel Linux para i
     RUN sudo make menuconfig
     RUN sudo make -jn
     RUN sudo make modules_install install
-    RUN shutdown -r now
     RUN cd ..
     CMD ["gcc", "linux/userspace.c"] ```
 6. Tras correr el contenedor podrá obener el resultado del contenedor.
