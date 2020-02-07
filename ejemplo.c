@@ -4,9 +4,6 @@
 #include <unistd.h>
 int main()
 {
-    int parametro;
-    scanf("%d", &parametro);
-    syscall(548, parametro);
-    printf("\n La System call 'sys_so' ha terminado");
+    syscall(548, 2323);
     return 0;
 }
