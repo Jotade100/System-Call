@@ -4,6 +4,6 @@
 #include <unistd.h>
 int main()
 {
-    syscall(548, 2323);
+    syscall(548, 232323);
     return 0;
 }
